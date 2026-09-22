@@ -46,11 +46,16 @@ The **INDI Allsky** {% term integration %} provides the following entities:
 
 ### Sensors
 
+- **Ambient temperature**: Ambient environment temperature (in °C).
+- **Dew point**: Atmospheric dew point reading (in °C).
 - **Exposure time**: The exposure duration of the latest capture (in seconds).
+- **Humidity**: Relative humidity reading (in %).
+- **Pressure**: Atmospheric barometric pressure (in hPa).
 - **Sky quality**: Sky Quality Meter (SQM) reading.
 - **Stars**: The number of stars detected in the latest image.
-- **Temperature**: Sensor temperature (in °C).
+- **Temperature**: Camera sensor temperature (in °C).
 - **Binning mode** (disabled by default): The binning mode used for capture.
+- **CPU temperature** (disabled by default): Server host CPU temperature (in °C).
 - **Filename** (disabled by default): The filename of the latest captured image.
 - **Gain** (disabled by default): The camera gain setting.
 
