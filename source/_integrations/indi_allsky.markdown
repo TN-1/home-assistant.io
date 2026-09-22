@@ -54,6 +54,10 @@ The **INDI Allsky** {% term integration %} provides the following entities:
 - **Filename** (disabled by default): The filename of the latest captured image.
 - **Gain** (disabled by default): The camera gain setting.
 
+### Media source
+
+The **INDI Allsky** integration registers a Media Source provider allowing you to browse and stream snapshots, keograms, star trails, and timelapses directly in the Home Assistant Media Browser or cast them to media players.
+
 ## Data updates
 
 The camera entity fetches the latest image on-demand from the INDI Allsky server whenever requested by Home Assistant. Sensor data is pushed in real time via a persistent local WebSocket connection.
